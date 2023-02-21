@@ -1,5 +1,6 @@
 import { trimAll, reducer } from "../util";
 
+//Quesiton
 describe("utils", () => {
   it("should trim all string elements passed in function trimAll", () => {
     expect(trimAll([" a", "b "])).toEqual(["a", "b"]);
