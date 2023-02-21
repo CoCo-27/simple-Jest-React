@@ -1,6 +1,5 @@
 import { trimAll, reducer } from "../util";
 
-// Pure
 describe("utils", () => {
   it("should trim all string elements passed in function trimAll", () => {
     expect(trimAll([" a", "b "])).toEqual(["a", "b"]);
